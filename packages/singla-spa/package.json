@@ -1,0 +1,26 @@
+{
+  "name": "single-spa",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Leandro Alexandrino <alexandrinowd@gmail.com>",
+  "homepage": "https://github.com/leandrino/microfrontends-example#readme",
+  "license": "ISC",
+  "main": "lib/singla-spa.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrino/microfrontends-example.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/leandrino/microfrontends-example/issues"
+  }
+}
