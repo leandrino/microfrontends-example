@@ -18,7 +18,8 @@
     "url": "git+https://github.com/leandrino/microfrontends-example.git"
   },
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "build": "webpack --config webpack.config.js -p"
   },
   "bugs": {
     "url": "https://github.com/leandrino/microfrontends-example/issues"
