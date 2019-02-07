@@ -5,18 +5,18 @@ const NavBar = () => (
     <div className="nav-wrapper">
       <a href="/" onClick={navigateToUrl} className="brand-logo">
         single-spa
-      </a>{" "}
+      </a>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li>
           <a href="/" onClick={navigateToUrl}>
             Home
           </a>
-        </li>{" "}
+        </li>
         <li>
-          <a href="/angularJS" onClick={navigateToUrl}>
-            AngularJS
+          <a href="/welcome" onClick={navigateToUrl}>
+            Welcome
           </a>
-        </li>{" "}
+        </li>
       </ul>
     </div>
   </nav>
