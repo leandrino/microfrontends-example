@@ -17,4 +17,18 @@ registerApplication(
     location.pathname.startsWith("/home")
 );
 
+function pathPrefix(prefix) {
+  return function(location) {
+    return location.pathname.startsWith(prefix);
+  };
+}
+
+registerApplication(
+  // Name of our single-spa application
+  "welcome",
+  // Our loading function
+  () => import("./src/welcome/welcome.app.js"), // Our activity function
+  pathPrefix("/welcome")
+);
+
 start();
